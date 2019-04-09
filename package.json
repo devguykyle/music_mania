@@ -1,0 +1,29 @@
+{
+  "name": "music_mania",
+  "version": "1.0.0",
+  "description": "band management website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devguykyle/music_mania.git"
+  },
+  "keywords": [
+    "music"
+  ],
+  "author": "Kyle Rhodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devguykyle/music_mania/issues"
+  },
+  "homepage": "https://github.com/devguykyle/music_mania#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.0",
+    "s": "^0.1.1"
+  }
+}
