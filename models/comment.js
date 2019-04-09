@@ -4,15 +4,15 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
 
-const post = new Schema({
+const comment = new Schema({
   _id: ObjectId,
   title: String,
-  body: String,
+  details: String,
   date: Date
 });
 
 module.exports = {
 
-  post : post;
+  comment : comment;
 
 }

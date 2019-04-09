@@ -4,15 +4,15 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
 
-const post = new Schema({
+const band = new Schema({
   _id: ObjectId,
-  title: String,
-  body: String,
-  date: Date
+  bandName: String,
+  password: String,
+  dateCreated: Date
 });
 
 module.exports = {
 
-  post : post;
+  band : band;
 
 }
